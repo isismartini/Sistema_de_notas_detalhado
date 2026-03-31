@@ -26,6 +26,10 @@ for i in range(1,26):
                 print("Por favor, digite uma nota válida entre 0 e 10.")
         except ValueError:
             print("Entrada inválida. Digite um número.")
+            
+media_geral = sum(notas) / len(notas)
+maior_nota = max(notas)
+menor_nota = min(notas)
 
 print("\n" + "=" * 30)
 print("RELATORIO FINAL DA TURMA")
